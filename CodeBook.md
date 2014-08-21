@@ -1,5 +1,16 @@
 # Code Book
 
+## Data Source
+
+The original data represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+A full description of the of the data can be found here:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The complete data can be downloaded from here:
+downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## Variables
+
 * `x_train` - a table representing the X_train.txt file
 
 * `y_train` - a table representing the y_train.txt file
@@ -31,3 +42,12 @@
 * `columnsToAggregateBy` - a logical vector of all the columns in the `extractedFeatureDataSet` besides "activityType" and "subjectID"
 
 * `tidyDataMeanSummary` - a data set representing the mean values of all the variables in `extractedFeaturesDataSet`, aggregated by "subjectID" and "activityType"
+
+## Tidy Data
+
+The final output file contains a mean value for every feature that has 'mean' or 'std' in its name. The mean value is calculated for every subject id/activity type pair.
+In order to keep the data tidy, the following steps were performed on the column names:
+1. 'mean' changes to 'Mean'.
+2. 'std' changes to 'Std'.
+3. '()' were removed.
+4. '-' were removed.
