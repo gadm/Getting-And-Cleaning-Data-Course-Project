@@ -46,8 +46,8 @@ downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FU
 ## Tidy Data
 
 The final output file contains a mean value for every feature that has 'mean' or 'std' in its name. The mean value is calculated for every subject id/activity type pair.
-In order to keep the data tidy, the following steps were performed on the column names:
-1. 'mean' changes to 'Mean'.
-2. 'std' changes to 'Std'.
-3. '()' were removed.
-4. '-' were removed.
+In order to keep the data tidy, the following steps were performed on the column names:<br>
+1. 'mean' changes to 'Mean'.<br>
+2. 'std' changes to 'Std'.<br>
+3. '()' were removed.<br>
+4. '-' were removed.<br>
