@@ -18,6 +18,8 @@
 
 * `mergedDataSet` - a data set consisting of `mergedTrainSet` and `mergedTestSet`
 
+* `activityType` - a list representing the possible activity values as they appear in activity_labels.txt (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 * `features` - the features names as they appear in features.txt
 
 * `column_names` - a concatenation of the `features` vector and "activtiyType","subjectID"
